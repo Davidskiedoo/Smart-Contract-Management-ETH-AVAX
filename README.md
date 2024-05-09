@@ -53,7 +53,15 @@ withdraw(uint256 _withdrawAmount)
 Custom Error
 * Name: InsufficientBalance
 * Parameters: uint256 balance, uint256 withdrawAmount. Description: Custom error thrown when attempting to withdraw an amount greater than the contract balance.
-  
+
+  ##Deployment
+Steps on how to run this program 
+In the IDE open the terminal and type npm i
+Then open 2 additional terminal and type npx hardhat node
+In the third terminal type npx hardhat run --network localhost scripts/deploy.js
+Then go back to the first terminal and type npm run dev to launch the front-end
+Then click the link provided below or you can manually go there by typing http://localhost:3000/
+
 ## Authors
 David Joshua B. Bucol
 
