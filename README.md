@@ -2,7 +2,7 @@
 
 Overview 
 
-This project is designed to provide management functionalities for smart contracts deployed on both Ethereum and Avalanche blockchains. It facilitates tasks such as deployment, interaction, and monitoring of smart contracts.
+This project provides a demonstration of basic ATM functionalities implemented on Ethereum and Avalanche blockchains. It consists of two main components: a React frontend for interacting with the smart contract and a Solidity smart contract implementing the ATM functionalities.
 
 ## Requirements
 To interact with the smart contract, you'll need:
@@ -12,9 +12,9 @@ To interact with the smart contract, you'll need:
 
 ## Usage
 1. Ensure you have MetaMask installed for Ethereum interaction.
-2. Connect to compatible Ethereum and Avalanche networks.
-3. Deploy your smart contracts using appropriate tools like Remix, Hardhat, or Truffle.
-4. Utilize the provided management functionalities for interacting with and monitoring your deployed smart contracts.
+2. Deploy the provided Solidity smart contract on a compatible Ethereum or Avalanche network.
+3. Connect your MetaMask wallet to the deployed smart contract.
+4. Interact with the ATM functionalities through the provided React frontend.
 
 ## Smart Contract Details 
 The Solidity smart contract implements basic ATM functionalities including deposit and withdrawal operations. It also includes error handling for insufficient balance during withdrawal.
